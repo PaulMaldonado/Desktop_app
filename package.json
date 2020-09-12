@@ -1,0 +1,23 @@
+{
+  "name": "electron-with-express",
+  "version": "1.0.0",
+  "description": "Task App created with Electron.js and Express.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --watch * --exec electron ."
+  },
+  "keywords": ["JavaScript", "Electron.js", "Express.js", "HTML", "CSS", "Mysql", "Node.js"],
+  "author": "Jorge Paúl Maldonado Núñez",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
